@@ -37,7 +37,7 @@ TOKEN = getenv("BOT_TOKEN", "Your bot token")
 
 <img src="./assets/images/v1.jpg">
 
-<img src="./assets/images/v2.jpg">
+<img src="./assets/images/v2.1.jpg">
 
 ## Contribution to the project
 
