@@ -1,50 +1,48 @@
 # Wikipedia Bot
 
-## Description
+## Описание
 
-Wikipedia Bot is a chatbot created to provide information from Wikipedia. The bot uses the Wikipedia API to get data and provides users with a user-friendly interface for searching and reading articles.
+Wikipedia Bot — это чат-бот, созданный для предоставления информации из Википедии. Бот использует API Википедии для получения данных и предлагает пользователям удобный интерфейс для поиска и чтения статей.
 
-## Of Functionality
+## Функциональность
 
-1. **Information search:** Users can use the bot to search for articles on various topics. The bot provides brief information about the articles found.
+1. **Поиск информации:** Пользователи могут использовать бота для поиска статей по различным темам. Бот предоставляет краткую информацию о найденных статьях.
 
-2. **Reading articles:** Users can request the full text of an article on a topic of interest to them, and the bot will provide the content of the article from Wikipedia.
+2. **Чтение статей:** Пользователи могут запросить полный текст статьи по интересующей их теме, и бот предоставит содержимое статьи из Википедии.
 
-3. **Links and sources:** The bot provides links and sources related to the selected article so that users can explore the topic more deeply.
+3. **Ссылки и источники:** Бот предоставляет ссылки и источники, связанные с выбранной статьей, чтобы пользователи могли глубже изучить тему.
 
-## Instructions for use
+## Инструкции по использованию
 
-1. **Installation:**
-- Clone the repository: `git clone https://github.com/kamolgks/wikipedia_bot.git `
-- Go to the project directory: `cd wikipedia_bot`
-- Install dependencies: `pip install -r requirements.txt `
+1. **Установка:**
+- Клонируйте репозиторий: `git clone https://github.com/kamolgks/wikipedia_bot.git`
+- Перейдите в каталог проекта: `cd wikipedia_bot`
+- Установите зависимости: `pip install -r requirements.txt`
 
-2. **Bot Token with BotFather:**
-- Get your bot token in BotFather.
-- Insert the bot token into the configuration file (`config.py`).
+2. **Токен бота с BotFather:**
+- Получите токен вашего бота в BotFather.
+- Создайте файл .env в корневом каталоге вашего проекта и добавьте ваш токен бота:
 
-```python
-# config.py
-
-TOKEN = getenv("BOT_TOKEN", "Your bot token")
+```
+BOT_TOKEN=''
 ```
 
-3. **Launching the bot:**
-- Launch the bot: `python main.py`
-- The bot is ready to be used in your chat.
+3. **Запуск бота:**
+- Запустите бота: `python main.py`
+- Бот готов к использованию в вашем чате.
 
-## Usage examples
+## Примеры использования
 
 <img src="./assets/images/v1.jpg">
 
-<img src="./assets/images/v2.1.jpg">
+<img src="./assets/images/v2.jpg">
 
-## Contribution to the project
+## Вклад в проект
 
-If you want to contribute to the development of the project, create a branch, make changes and submit a merge request.
+Если вы хотите внести вклад в развитие проекта, создайте ветку, внесите изменения и отправьте запрос на слияние.
 
-## License
+## Лицензия
 
-This project is distributed under the [GNU GENERAL PUBLIC LICENSE v3.0](LICENSE). You are free to use, modify and distribute it in accordance with the terms of the license.
+Этот проект распространяется по лицензии [GNU GENERAL PUBLIC LICENSE v3.0](LICENSE). Вы свободны использовать, изменять и распространять его в соответствии с условиями лицензии.
 
-**Thanks for using Wikipedia Bot!**
+**Спасибо за использование Wikipedia Bot!**
